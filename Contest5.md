@@ -87,4 +87,22 @@ int main(){
 于是我就把相同的字母放在一起输出。于是就过了。
 
 对，我还是不知道为什么，但是就是这么一路瞎折腾过来过了。
+
+## AC代码
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+int main()
+{
+    int n;
+    cin>>n;
+    string s;
+    cin>>s;
+    sort(s.begin(),s.end());
+    cout<<s<<endl;
+    return 0;
+}
+
+```
  
